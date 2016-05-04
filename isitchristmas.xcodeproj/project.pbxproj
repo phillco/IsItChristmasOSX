@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8BF7421CDA7322005E7AF3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BF7411CDA7322005E7AF3 /* README.md */; };
+		A1F00BB31CA392EA005D1D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F00BB21CA392EA005D1D27 /* AppDelegate.swift */; };
+		A1F00BB51CA392EA005D1D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F00BB41CA392EA005D1D27 /* Assets.xcassets */; };
+		A1F00BB81CA392EA005D1D27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F00BB61CA392EA005D1D27 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F00BBF1CA392EB005D1D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F00BA71CA392EA005D1D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F00BAE1CA392EA005D1D27;
+			remoteInfo = isitchristmas;
+		};
+		A1F00BCA1CA392EB005D1D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F00BA71CA392EA005D1D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F00BAE1CA392EA005D1D27;
+			remoteInfo = isitchristmas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F8BF7411CDA7322005E7AF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1F00BAF1CA392EA005D1D27 /* isitchristmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isitchristmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F00BB21CA392EA005D1D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F00BB41CA392EA005D1D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F00BB71CA392EA005D1D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A1F00BB91CA392EA005D1D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F00BBE1CA392EB005D1D27 /* isitchristmasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isitchristmasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F00BC91CA392EB005D1D27 /* isitchristmasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isitchristmasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F00BAC1CA392EA005D1D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BBB1CA392EB005D1D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BC61CA392EB005D1D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F00BA61CA392EA005D1D27 = {
+			isa = PBXGroup;
+			children = (
+				4F8BF7411CDA7322005E7AF3 /* README.md */,
+				A1F00BB11CA392EA005D1D27 /* isitchristmas */,
+				A1F00BB01CA392EA005D1D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F00BB01CA392EA005D1D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F00BAF1CA392EA005D1D27 /* isitchristmas.app */,
+				A1F00BBE1CA392EB005D1D27 /* isitchristmasTests.xctest */,
+				A1F00BC91CA392EB005D1D27 /* isitchristmasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F00BB11CA392EA005D1D27 /* isitchristmas */ = {
+			isa = PBXGroup;
+			children = (
+				A1F00BB21CA392EA005D1D27 /* AppDelegate.swift */,
+				A1F00BB41CA392EA005D1D27 /* Assets.xcassets */,
+				A1F00BB61CA392EA005D1D27 /* MainMenu.xib */,
+				A1F00BB91CA392EA005D1D27 /* Info.plist */,
+			);
+			path = isitchristmas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F00BAE1CA392EA005D1D27 /* isitchristmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F00BD21CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmas" */;
+			buildPhases = (
+				A1F00BAB1CA392EA005D1D27 /* Sources */,
+				A1F00BAC1CA392EA005D1D27 /* Frameworks */,
+				A1F00BAD1CA392EA005D1D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isitchristmas;
+			productName = isitchristmas;
+			productReference = A1F00BAF1CA392EA005D1D27 /* isitchristmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F00BBD1CA392EB005D1D27 /* isitchristmasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F00BD51CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmasTests" */;
+			buildPhases = (
+				A1F00BBA1CA392EB005D1D27 /* Sources */,
+				A1F00BBB1CA392EB005D1D27 /* Frameworks */,
+				A1F00BBC1CA392EB005D1D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F00BC01CA392EB005D1D27 /* PBXTargetDependency */,
+			);
+			name = isitchristmasTests;
+			productName = isitchristmasTests;
+			productReference = A1F00BBE1CA392EB005D1D27 /* isitchristmasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F00BC81CA392EB005D1D27 /* isitchristmasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F00BD81CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmasUITests" */;
+			buildPhases = (
+				A1F00BC51CA392EB005D1D27 /* Sources */,
+				A1F00BC61CA392EB005D1D27 /* Frameworks */,
+				A1F00BC71CA392EB005D1D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F00BCB1CA392EB005D1D27 /* PBXTargetDependency */,
+			);
+			name = isitchristmasUITests;
+			productName = isitchristmasUITests;
+			productReference = A1F00BC91CA392EB005D1D27 /* isitchristmasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F00BA71CA392EA005D1D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = phillco;
+				TargetAttributes = {
+					A1F00BAE1CA392EA005D1D27 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A1F00BBD1CA392EB005D1D27 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A1F00BAE1CA392EA005D1D27;
+					};
+					A1F00BC81CA392EB005D1D27 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A1F00BAE1CA392EA005D1D27;
+					};
+				};
+			};
+			buildConfigurationList = A1F00BAA1CA392EA005D1D27 /* Build configuration list for PBXProject "isitchristmas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F00BA61CA392EA005D1D27;
+			productRefGroup = A1F00BB01CA392EA005D1D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F00BAE1CA392EA005D1D27 /* isitchristmas */,
+				A1F00BBD1CA392EB005D1D27 /* isitchristmasTests */,
+				A1F00BC81CA392EB005D1D27 /* isitchristmasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F00BAD1CA392EA005D1D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F00BB51CA392EA005D1D27 /* Assets.xcassets in Resources */,
+				A1F00BB81CA392EA005D1D27 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BBC1CA392EB005D1D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BC71CA392EB005D1D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F00BAB1CA392EA005D1D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8BF7421CDA7322005E7AF3 /* README.md in Sources */,
+				A1F00BB31CA392EA005D1D27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BBA1CA392EB005D1D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F00BC51CA392EB005D1D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F00BC01CA392EB005D1D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F00BAE1CA392EA005D1D27 /* isitchristmas */;
+			targetProxy = A1F00BBF1CA392EB005D1D27 /* PBXContainerItemProxy */;
+		};
+		A1F00BCB1CA392EB005D1D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F00BAE1CA392EA005D1D27 /* isitchristmas */;
+			targetProxy = A1F00BCA1CA392EB005D1D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F00BB61CA392EA005D1D27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F00BB71CA392EA005D1D27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F00BD01CA392EB005D1D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1F00BD11CA392EB005D1D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1F00BD31CA392EB005D1D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F00BD41CA392EB005D1D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F00BD61CA392EB005D1D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isitchristmas.app/Contents/MacOS/isitchristmas";
+			};
+			name = Debug;
+		};
+		A1F00BD71CA392EB005D1D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isitchristmas.app/Contents/MacOS/isitchristmas";
+			};
+			name = Release;
+		};
+		A1F00BD91CA392EB005D1D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = isitchristmas;
+			};
+			name = Debug;
+		};
+		A1F00BDA1CA392EB005D1D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = isitchristmasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phillco.isitchristmasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = isitchristmas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F00BAA1CA392EA005D1D27 /* Build configuration list for PBXProject "isitchristmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F00BD01CA392EB005D1D27 /* Debug */,
+				A1F00BD11CA392EB005D1D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F00BD21CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F00BD31CA392EB005D1D27 /* Debug */,
+				A1F00BD41CA392EB005D1D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F00BD51CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F00BD61CA392EB005D1D27 /* Debug */,
+				A1F00BD71CA392EB005D1D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F00BD81CA392EB005D1D27 /* Build configuration list for PBXNativeTarget "isitchristmasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F00BD91CA392EB005D1D27 /* Debug */,
+				A1F00BDA1CA392EB005D1D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F00BA71CA392EA005D1D27 /* Project object */;
+}
