@@ -16,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength);
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+        // TODO: Make this more intellient before 2016-12-25
         let string = NSMutableAttributedString(string: "NO");
         string.beginEditing();
         string.addAttribute(NSFontAttributeName, value: NSFont.boldSystemFontOfSize(14), range: NSMakeRange(0, 2));
